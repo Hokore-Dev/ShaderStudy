@@ -8,6 +8,7 @@
 	SubShader {
 		Tags{ "Queue" = "AlphaTest" "RenderType" = "TransparentCutout" }
 		LOD 200
+		cull off
 		Lighting off
 
 		CGPROGRAM
