@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: New Material
-  m_Shader: {fileID: 4800000, guid: a78fd8582861ae147977cde23a498f90, type: 3}
+  m_Shader: {fileID: 4800000, guid: 16c5976582dd14a4c97b3b9849924317, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -42,6 +42,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: 96e6ec9ee9f40f34eb37e0b3668cdd0a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -55,6 +59,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _Alpha: 0.5
     - _BrightDark: -0.225
     - _BumpScale: 1
     - _Cutoff: 0.5
